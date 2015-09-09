@@ -1,11 +1,12 @@
 #Tarea de un pr
 
 ## pasos
-1. Clonar el repositorio "git clone alwicyn@github.com/riveraisrael/poo1"
+1. Clonar el repositorio "git clone riveraisrael@github.com/riveraisrael/poo1"
 2. Crear un branch  "git checkout -b proceso-tareas.md"
 3 Codigo 
 
-```include <iostream>
+```
+include <iostream>
 	** using namespace std;
 int main()
 {
