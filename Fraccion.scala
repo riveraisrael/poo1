@@ -45,7 +45,7 @@ val fraccion2 = new Racional(n2, d2)
 
 val suma = fraccion1.sumar(fraccion2)
 
-println("\t El resultado a tu operacion es: "suma.numerador + "/" + suma.denominador)
+println("\t El resultado a tu operacion es: " + suma.numerador + "/" + suma.denominador)
 	
 }
 def RestaF()  {
@@ -63,7 +63,7 @@ val fraccion2 = new Racional(n2, d2)
 
 val resta = fraccion1.restar(fraccion2)
 
-println("\t El resultado a tu operacion es: "resta.numerador + "/" + resta.denominador)
+println("\t El resultado a tu operacion es: " + resta.numerador + "/" + resta.denominador)
 	
 }
 def MultiplicacionF()  {
@@ -81,7 +81,7 @@ val fraccion2 = new Racional(n2, d2)
 
 val multiplica = fraccion1.multiplicar(fraccion2)
 
-println("\t El resultado a tu operacion es: "multiplica.numerador + "/" + multiplica.denominador)
+println("\t El resultado a tu operacion es: " + multiplica.numerador + "/" + multiplica.denominador)
   
 }
 def DivisionF()  {
@@ -99,7 +99,7 @@ val fraccion2 = new Racional(n2, d2)
 
 val divide = fraccion1.dividir(fraccion2)
 
-println("\t El resultado a tu operacion es: "divide.numerador + "/" + divide.denominador)
+println("\t El resultado a tu operacion es: " + divide.numerador + "/" + divide.denominador)
   
 }
 
