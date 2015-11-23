@@ -1,3 +1,6 @@
+var continuar='N'
+do 
+ {
 println ("Primera Calificacion")
 val calificacion1=readFloat()
 
@@ -18,3 +21,7 @@ val Final=(Promedio*.55+ExamenFinal*.3+TrabajoFinal*.15)
 
 
 println ("Calificacion "+ Final)
+println("quiere continuar (S/N)")	
+continuar=readChar
+
+}while(continuar=='S')
