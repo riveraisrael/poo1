@@ -55,9 +55,9 @@ class PeliculaRentada(p: Pelicula, d:Int){
 var respuesta='n'
 val renta= new Renta()
 do{
-println("****************************************************")
-	println ("Bienvenido a la tienda de BlockBuster")
-println("****************************************************")
+
+	println ("renta peliculas bienvenido...")
+
   val pelicula=new Pelicula("")
   println("Ingresa el nombre de la pelicula : ")
   var titulo=readLine()
